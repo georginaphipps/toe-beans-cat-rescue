@@ -13,7 +13,7 @@ ul {
     display: inline-block;
     margin: 4px 2px;
     border-radius: 16px;
-    font-family: 'Amatic-SC', serif;
+    font-family: 'Amatic-SC', sans-serif;
   }
 
   li {
