@@ -4,16 +4,12 @@ ul {
     padding: 0;
   }
   a {
-    border: 2px solid black;
-    border-radius: 50%;
     width: 5rem;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
-    border-radius: 16px;
-    font-family: 'Amatic-SC', sans-serif;
   }
 
   li {
@@ -22,6 +18,7 @@ ul {
 
   .logo {
     position: absolute;
+    display: inline;
     left: 20px;
     width: 100px;
     height: 48px;
