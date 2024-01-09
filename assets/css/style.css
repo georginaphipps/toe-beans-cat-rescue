@@ -2,8 +2,13 @@ nav {
 
 }
 
+a {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+}
+
 li {
-text-align: center;
+
 }
 
 img {
@@ -20,9 +25,4 @@ p {
 
 footer {
     
-}
-
-#welcome-text {
-    font-family: 'Amatic SC', sans-serif;
-    font-weight: 700;
 }
