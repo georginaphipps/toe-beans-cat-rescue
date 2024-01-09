@@ -42,8 +42,26 @@ ul {
 
   div {
     display: block;
+    padding: 0px 40px 0px 40px;
+    text-align: center;
   }
 
-  footer {
-  
+  h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50pt;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  form {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+
+  footer > p {
+    text-align: center;
   }
