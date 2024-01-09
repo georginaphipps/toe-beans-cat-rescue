@@ -4,7 +4,6 @@ nav {
 
 li {
 text-align: center;
-font-family: 'Amatic Sc', sans-serif;
 }
 
 img {
@@ -25,4 +24,5 @@ footer {
 
 #welcome-text {
     font-family: 'Amatic SC', sans-serif;
+    font-weight: 700;
 }
