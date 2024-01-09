@@ -1,25 +1,49 @@
+ header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+ }
+
 nav {
-    text-align: center;
-    border-bottom: 2px solid black;
     margin: 0px 20px 20px 20px;
-    padding-bottom: 20px;
+    padding-top: 20px;
   }
  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+}
+  
   li {
-    display: inline;
+    float: left;
   }
 
   a {
-    display: inline-block;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 50px 50px;
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
     font-size: 24pt;
+    color: black;
   }
 
-  nav > img {
+  li a:hover:not(.active) {
+    text-decoration: underline;
+    color: #d790a1;
+  }
+
+  .logo {
     display: block;
     float: left;
-    width: 15%;
+    max-height: 200px; 
+  }
+
+  div {
+    display: block;
+  }
+
+  footer {
+  
   }
