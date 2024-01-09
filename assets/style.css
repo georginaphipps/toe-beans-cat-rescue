@@ -10,12 +10,16 @@ nav {
   }
 
   a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
+    font-size: 24pt;
   }
 
   nav > img {
     display: block;
     float: left;
-    height: auto;
+    width: 15%;
   }
