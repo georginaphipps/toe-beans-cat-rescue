@@ -130,16 +130,14 @@ ul {
 
   button {
     background-color: #d790a1;
+    color: #fff;
+    padding: 10px 20px;
     border: none;
-    border-radius: 20px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 4px 2px;
+    border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
   }
 
  /*form on contact page*/
@@ -180,6 +178,9 @@ ul {
       border: none;
       border-radius: 4px;
       cursor: pointer;
+      font-weight: bold;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
     }
 
     input[type="submit"]:hover {
