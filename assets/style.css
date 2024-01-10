@@ -15,7 +15,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0%;
-}
+  }
   
   li {
     float: left;
@@ -65,6 +65,7 @@ ul {
 
   p.main-header-content {
     text-align: left;
+    font-weight: bold;
   }
 
   .container {
@@ -85,9 +86,12 @@ ul {
     height: auto;
   }
 
+  section.review-header {
+    padding: 0px 80px;
+  }
   article.reviews {
     display: flex;
-    padding: 0px 20px;
+    padding: 0px 60px;
   }
 
   section.review1 {
@@ -123,6 +127,7 @@ ul {
     font-size: 30pt;
     font-weight: bold;
   }
+
  /*form on contact page*/
   .form-container {
       max-width: 600px;
