@@ -84,6 +84,30 @@ ul {
     width: 100%;
     height: auto;
   }
+
+  article.reviews {
+    display: flex;
+    padding: 0px 20px;
+  }
+
+  section.review1 {
+    padding: 0px 20px;
+    text-align: justify;
+    font-style: italic;
+  }
+
+  section.review2 {
+    padding: 0px 20px;
+    text-align: justify;
+    font-style: italic;
+  }
+
+  section.review3 {
+    padding: 0px 20px;
+    text-align: justify;
+    font-style: italic;
+  }
+  
  /*about us and rehoming pages*/
   .hero-image-2 {
     width: 100%;
