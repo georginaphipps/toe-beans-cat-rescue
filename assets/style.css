@@ -37,7 +37,8 @@ ul {
   .logo {
     display: block;
     float: left;
-    max-height: 200px; 
+    max-height: 200px;
+    padding-left: 40px; 
   }
 
   div {
@@ -75,10 +76,21 @@ ul {
 
   .img-container {
     flex: 1;
+    padding-top: 80px;
   }
 
   .hero-image-1 {
-    width: 600px;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-image-2 {
+    width: 100%;
+    height: auto;
+  }
+  .hero-image-3 {
+    width: 100%;
+    height: auto;
   }
 
   h2 {
@@ -135,7 +147,36 @@ ul {
     font-weight: bold;
   }
 
-  footer > p {
+  footer {
     text-align: center;
+    background-color: #d790a1;
+    color: #fff;
+    padding: 20px;
   }
   
+  /* styles for desktop devices */
+@media only screen and (min-width: 992px) {
+  body {
+    font-size: 16px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+/* styles for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+/* styles for mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 12px;
+    width: 100%;
+    margin: 0;
+  }
+}
