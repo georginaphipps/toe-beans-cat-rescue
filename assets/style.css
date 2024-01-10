@@ -1,3 +1,4 @@
+ /*header section*/
  header {
   display: flex;
   justify-content: space-between;
@@ -40,7 +41,7 @@ ul {
     max-height: 200px;
     padding-left: 40px; 
   }
-
+ /*main section*/
   div {
     display: block;
     padding: 0px 40px 0px 40px;
@@ -83,7 +84,7 @@ ul {
     width: 100%;
     height: auto;
   }
-
+ /*about us and rehoming pages*/
   .hero-image-2 {
     width: 100%;
     height: auto;
@@ -98,7 +99,7 @@ ul {
     font-size: 30pt;
     font-weight: bold;
   }
-
+ /*form on contact page*/
   .form-container {
       max-width: 600px;
       margin: 0 auto;
@@ -146,7 +147,7 @@ ul {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
   }
-
+ /*footer section*/
   footer {
     text-align: center;
     background-color: #d790a1;
@@ -154,7 +155,7 @@ ul {
     padding: 20px;
   }
   
-  /* styles for desktop devices */
+  /*styles for desktop devices */
 @media only screen and (min-width: 992px) {
   body {
     font-size: 16px;
@@ -163,7 +164,7 @@ ul {
   }
 }
 
-/* styles for tablet devices */
+  /*styles for tablet devices*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
     font-size: 14px;
@@ -172,7 +173,7 @@ ul {
   }
 }
 
-/* styles for mobile devices */
+  /*styles for mobile devices*/
 @media only screen and (max-width: 767px) {
   body {
     font-size: 12px;
