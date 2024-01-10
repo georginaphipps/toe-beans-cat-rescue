@@ -46,6 +46,10 @@ ul {
     text-align: center;
   }
 
+  h1 .main-header {
+    font-size: 100pt;
+  }
+
   h1 {
     font-family: "Amatic SC", sans-serif;
     font-weight: bold;
